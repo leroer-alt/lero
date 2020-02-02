@@ -33,39 +33,39 @@ Coming Soon
 
 ## Get to Startd
 
-###Getting Started
+### Getting Started
 Let’s walk through core Lero concepts as we tackle a simple use case.
 
-###Connecting the daemon to a blockchain
+### Connecting the daemon to a blockchain
 
 To connect to the daemon to existing blockchain, just start forknoted with the corresponding configuration file.
 
 
-####For Mas OS and Linux
+#### For Mas OS and Linux
 $ ./lerod  --rpc-bind-ip=0.0.0.0 --rpc-bind-port=12848 
 
 Using _./lerod --help_  to   Produce help message
                             
 
-####For Windows
+#### For Windows
 $ lerod  --rpc-bind-ip=0.0.0.0 --rpc-bind-port=12848 
 
 Using _lerod --help_  to   Produce help message
 
-###Starting simplewallet
+### Starting simplewallet
 To start simplewallet:
 
-####For Mas OS and Linux
+#### For Mas OS and Linux
 $ ./simplewallet 
 
 Using _./simplewallet --help_  to   Produce help message
 
-####For Windows
+#### For Windows
 $ simplewallet 
 
 Using _simplewallet --help_  to   Produce help message
 
-###Mining with miner
+### Mining with miner
 miner needs a running and synced daemon.
 
 **Note： Using _--help_  to   Produce help message**
@@ -73,7 +73,7 @@ miner needs a running and synced daemon.
 
 _To start mining_:
 
-####For Mas OS and Linux
+#### For Mas OS and Linux
 $ ./miner --daemon-address 127.0.0.1:[DAEMON_RPC_PORT]  --address [WALLET_ADDRESS]
 
 _Examples_
@@ -82,7 +82,7 @@ Starting miner :
 
 $ ./miner --daemon-address 127.0.0.1:12848--address 
 
-####For Windows
+#### For Windows
 $ miner --daemon-address 127.0.0.1:[DAEMON_RPC_PORT]  --address [WALLET_ADDRESS]
 
 _Examples_
